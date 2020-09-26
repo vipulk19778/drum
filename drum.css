@@ -1,0 +1,119 @@
+#body {
+    background-color: #182148;
+    box-sizing: border-box;
+}
+
+.fa-heart {
+    color: red;
+}
+
+#title {
+    color: #d7d0d2;
+    margin-top: 50px;
+    font-size: 80px;
+    font-weight: bolder;
+    font-family: 'Arvo', cursive;
+}
+
+footer {
+    color: white;
+    /*    margin-top: 200px;*/
+    margin: 10% auto 5%;
+    font-size: 20px;
+    font-family: 'Arvo', cursive;
+}
+
+.set {
+    margin: 10% auto;
+}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
+
+.drum {
+    width: 150px;
+    height: 150px;
+    margin: 15px;
+    color: #DA0463;
+    font-size: 2.5em;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    /*    border: 10px solid #182148;*/
+    border: 10px solid #404b69;
+    box-shadow: 0px 0px 5px 5px #190d4e;
+    border-radius: 20px;
+    text-transform: uppercase;
+    text-shadow: 3px 0 #DBEDF3;
+}
+
+.w {
+    background: url(images/drum1.jpg) center center;
+    background-size: cover;
+}
+
+.a {
+    background: url(images/drum1.jpg) center center;
+    background-size: cover;
+}
+
+.s {
+    background: url(images/drum2.jpg) center center;
+    background-size: cover;
+}
+
+.d {
+    background: url(images/drum3.jpg) center center;
+    background-size: cover;
+}
+
+.j {
+    background: url(images/drum3.jpg) center center;
+    background-size: cover;
+}
+
+.k {
+    background: url(images/drum4.jpg) center center;
+    background-size: cover;
+}
+
+.l {
+    background: url(images/drum4.jpg) center center;
+    background-size: cover;
+}
+
+.o {
+    background: url(images/drum5.jpg) center center;
+    background-size: cover;
+}
+
+@media(max-width:480px) {
+    #title {
+        font-size: 40px;
+        margin: 5% auto;
+    }
+
+    .drum {
+        width: 120px;
+        height: 120px;
+    }
+
+
+    footer {
+        font-size: 16px;
+    }
+
+}
+
+@media(min-width:480px) and (max-width:768px) {
+    #title {
+        font-size: 50px;
+    }
+
+    .drum {
+        width: 130px;
+        height: 130px;
+    }
+}
